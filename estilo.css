@@ -1,0 +1,46 @@
+.titulo {
+    font-size: 2em;
+    color: blueviolet;
+}
+
+#title{
+    font-size: 3em;
+}
+
+.logo{
+    width: 15vw;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 2em
+    border-radius: 10%;
+    transition: 2s;
+    align-items: center;
+}
+
+#cards-content{
+    border: 2px solid black;
+    width: 85vw;
+    margin: auto;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cards:hover{
+    background-color: blue;
+}
+
+#titulos{
+    
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
